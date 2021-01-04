@@ -20,6 +20,7 @@ Accepts ENV variables:
 - POOL_URL= Pool server, should support TLS. (e.g. pool.supportxmr.com:443)
 - POOL_USER= wallet address
 - POOL_PW= Password (only needed to identify the instance)
+
 Example:
 ```
 docker run -idt -e POOL_URL=pool.supportxmr.com docker-xmrig-tls
